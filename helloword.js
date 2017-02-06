@@ -3,3 +3,5 @@ function greet(greeting, name) {
 }
 
 greet('Good evening', 'Zoe');
+
+console.log('Finished');
