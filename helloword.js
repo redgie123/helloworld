@@ -1,7 +1,17 @@
 function greet(greeting, name) {
-    console.log(`${greeting} ${name}`);
+   return `${greeting} ${name}`;
 }
 
-greet('Have a great night of study', 'Zoe');
+function upper(message) {
+    let upperMessage;
+    if (typeof message === 'string' ) {
+        upperMessage = message.toUpperCase()
+    }
+    message = "No Entry"
+    return upperMessage;
+}
 
-console.log('Finished');
+module.exports = {
+    greet,
+    upper
+}
