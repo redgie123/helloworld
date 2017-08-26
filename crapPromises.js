@@ -1,3 +1,5 @@
+// Use promises
+
 const fetch = require('node-fetch');
 
 const url = 'https://api.hearthstonejson.com/v1/15590/enUS/cards.collectible.json';
